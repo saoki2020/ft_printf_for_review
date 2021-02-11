@@ -5,7 +5,6 @@
 int main(void)
 {
 int ret;
-char s[] = "42Tokyo";
 
 printf("########## get crazy ##########\n\n");
 
@@ -54,6 +53,7 @@ ft_printf("ft_printf:%.2p [", NULL);
 ret = printf("%.2p", NULL);
 printf("](ret = %d)\n", ret);
 
+/*
 //%*% *=-10//
 printf("#%*%\n");
 printf("   printf:%*% [", -10);
@@ -62,6 +62,7 @@ printf("](ret = %d)\n", ret);
 ft_printf("ft_printf:%*% [", -10);
 ret = printf("%*%", -10);
 printf("](ret = %d)\n", ret);
+*/
 
 system("leaks a.out");
 }
