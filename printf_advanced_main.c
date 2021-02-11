@@ -27,17 +27,6 @@ ft_printf("ft_printf:%*s [", 0, s);
 ret = printf("%*s",0  ,s);
 printf("](ret = %d)\n", ret);
 
-/*
-//'*'as minimum field width (INT_MIN)//
-printf("#'*'as minimum field width (INT_MIN)\n");
-printf("   printf:%*s [", INT_MIN, s);
-ret = printf("%*s",INT_MIN, s);
-printf("](ret = %d)\n", ret);
-ft_printf("ft_printf:%*s [", INT_MIN, s);
-ret = printf("%*s",INT_MIN ,s);
-printf("](ret = %d)\n", ret);
-*/
-
 //'*'as precision (negative)//
 printf("#'*'as precision (negative)\n");
 printf("   printf:%10.*s [", -5, s);
@@ -56,16 +45,6 @@ ft_printf("ft_printf:%10.*s [", 0, s);
 ret = printf("%10.*s",0 ,s);
 printf("](ret = %d)\n", ret);
 
-/*
-//'*'as precision (INT_MIN)//
-printf("#'*'as precision (INT_MIN)\n");
-printf("   printf:%.*s [", INT_MIN, s);
-ret = printf("%.*s",INT_MIN, s);
-printf("](ret = %d)\n", ret);
-ft_printf("ft_printf:%.*s [", INT_MIN, s);
-ret = printf("%.*s",INT_MIN ,s);
-printf("](ret = %d)\n", ret);
-*/
 
 //'*'as both without flag//
 printf("#'*'as both without flag (zero)\n");

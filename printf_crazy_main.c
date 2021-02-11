@@ -53,6 +53,53 @@ ft_printf("ft_printf:%.2p [", NULL);
 ret = printf("%.2p", NULL);
 printf("](ret = %d)\n", ret);
 
+
+//char s[] = "42Tokyo";
+
+/*
+//'*'as minimum field width (INT_MIN)//
+printf("#'*'as minimum field width (INT_MIN)\n");
+printf("   printf:%*s [", INT_MIN, s);
+ret = printf("%*s",INT_MIN, s);
+printf("](ret = %d)\n", ret);
+ft_printf("ft_printf:%*s [", INT_MIN, s);
+ret = printf("%*s",INT_MIN ,s);
+printf("](ret = %d)\n", ret);
+*/
+
+/*
+//'*'as minimum field width (INT_MAX)//
+printf("#'*'as minimum field width (INT_MAX)\n");
+printf("   printf:%*s [", INT_MAX, s);
+ret = printf("%*s",INT_MAX, s);
+printf("](ret = %d)\n", ret);
+ft_printf("ft_printf:%*s [", INT_MAX, s);
+ret = printf("%*s",INT_MAX ,s);
+printf("](ret = %d)\n", ret);
+*/
+
+/*
+//'*'as precision (INT_MIN)//
+printf("#'*'as precision (INT_MIN)\n");
+printf("   printf:%.*s [", INT_MIN, s);
+ret = printf("%.*s",INT_MIN, s);
+printf("](ret = %d)\n", ret);
+ft_printf("ft_printf:%.*s [", INT_MIN, s);
+ret = printf("%.*s",INT_MIN ,s);
+printf("](ret = %d)\n", ret);
+*/
+
+/*
+//'*'as precision (INT_MAX)//
+printf("#'*'as precision (INT_MAX)\n");
+printf("   printf:%.*s [", INT_MAX, s);
+ret = printf("%.*s",INT_MAX, s);
+printf("](ret = %d)\n", ret);
+ft_printf("ft_printf:%.*s [", INT_MAX, s);
+ret = printf("%.*s",INT_MAX ,s);
+printf("](ret = %d)\n", ret);
+*/
+
 /*
 //%*% *=-10//
 printf("#%*%\n");
