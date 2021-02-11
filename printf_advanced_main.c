@@ -5,6 +5,7 @@
 int main(void)
 {
 int ret;
+char s[] = "42Tokyo";
 
 printf("########## advanced flags ##########\n\n");
 
