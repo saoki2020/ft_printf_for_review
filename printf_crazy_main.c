@@ -5,6 +5,7 @@
 int main(void)
 {
 int ret;
+char s[] = "42Tokyo";
 
 printf("########## get crazy ##########\n\n");
 
